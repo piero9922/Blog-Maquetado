@@ -1,3 +1,4 @@
+
 //-----VARIABLES-----// 
     
     $color-principal: #1F3F68;
@@ -11,18 +12,17 @@
 //-----Button-----// 
 
     $button-bg: #5A98D0;
-    $button-pd: 10px 50px;
 
 //-----Font-size-----//
 
+    $size-title: 2.5rem;
     $size-paragraph: 1rem;
-    $size-title: 2rem;
-    $size-subtitle: 0.9;
+    $size-subtitle2: 1.5rem;
+    $size-subtitle: 0.9rem;
 
-    a{
-        text-decoration: none;
-        color: $color-principal;
-    }
+//-----Background-----//
+
+    $bg: #316099;
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -42,7 +42,9 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* make sure to set some focus styles for accessibility */
@@ -384,4 +386,41 @@ textarea {
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+}
+
+//-----Icons-----// 
+
+.name-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .names{
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        color: $color-principal;
+    }
+    .icons{
+        a{
+            color: $color-icon;
+            margin-right: 20px;
+        }
+    }
+}
+
+//-----Button-----// 
+form{
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        width: 90%;
+        height: 50%;
+        border: none;
+        background-color: $button-bg;
+        color: $color-secundary;
+        border-radius: 10px;
+    }
 }

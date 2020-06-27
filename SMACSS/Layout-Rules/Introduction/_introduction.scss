@@ -1,0 +1,24 @@
+.introduction{
+    background-image: url('/images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    h1{
+        font-size: $size-title;
+        color: $color-secundary;
+        padding: 20px 0;
+    }
+    p{
+        color: $color-secundary;
+        font-size: $size-paragraph;
+        width: 50%;
+        text-align: center;
+        line-height: 30px;
+    }
+}

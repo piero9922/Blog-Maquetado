@@ -1,0 +1,24 @@
+.header{
+    a:hover{
+        color: #333333;
+    }
+}
+.popular,
+.article{
+    a:hover{
+        color: skyblue;
+    }
+    a:active{
+        color: #333333;
+    }
+}
+
+.team{
+    button:hover{
+        background-color: white;
+        color: #333333;
+    }
+    a:hover{
+        color: #333333;
+    }
+}

@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    &__logo{
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .circle{
+            width: 25px;
+            height: 22px;
+            background: #316099;
+            border-radius: 50%;
+            position: relative;
+        }
+        span{
+            border: 1px solid #316099;
+            background-color: white;
+            padding: 3px 6px;
+            border-radius: 50%;
+            position: relative;
+            left: -13px;
+            font-weight: bold;
+            color: #316099;
+            font-size: $size-subtitle;
+        }
+    
+    }
+    &__links{
+        display: flex;
+        align-items: center;
+        padding-right: 50px;
+        ul{
+            display: flex;
+        }
+        a{
+            margin-right: 20px;
+            color: $color-principal;
+            font-weight: bold;
+        }
+    }
+}
